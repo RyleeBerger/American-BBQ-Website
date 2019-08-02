@@ -59,7 +59,7 @@ function addReservation(){
 
 }
 
-var cardContainer3 =$('.card-Container3');
+var cardContainer4 =$('.card-Container4');
 var submit =$('.submit-Button3');
 
 submit.on("click", addComment);
@@ -68,10 +68,11 @@ function addComment(){
   var name3 = $('.name3').val();
   var message = $('.message').val();
 
-  cardContainer3.append(`<p class = "addComment"> ${name3} your message has been sent to us. Have a great day!`);
+  cardContainer4.append(`<p class = "addComment"> ${name3} your message has been sent to us. Have a great day!`);
 
   $(`.name3`).val("");
   $(`.message`).val("");
+  $(`.email`).val("");
 
 }
 

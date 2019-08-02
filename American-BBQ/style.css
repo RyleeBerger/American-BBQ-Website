@@ -106,6 +106,7 @@ h1 {
   color: #00a1ff;
   border: 4px solid #ff7f00;
   font-size: 48px;
+  background-color: white;
 }
 
 .page1 {
@@ -115,7 +116,6 @@ h1 {
 }
 
 .tabs {
-  border: 3px solid white;
   background: #ff7f00;
   margin-bottom: 30px;
   font-size: 30px;
@@ -128,6 +128,7 @@ p {
   border: 4px solid #ff7f00;
   font-size: 25px;
   margin-top: 60px;
+  background-color: white;
   /* length: 500px; */
 }
 
@@ -136,6 +137,13 @@ h3 {
   color: #00a1ff;
   border: 4px solid #ff7f00;
   font-size: 25px;
+  background-color: white;
+}
+
+body {
+  /* background-color: #d8eff0; */
+  background-image: url("http://www.cashadvance6online.com/data/archive/img/2618154619.jpeg");
+  background-attachment: fixed;
 }
 
 .ROR {
@@ -169,17 +177,17 @@ h3 {
   width: 500px;
 }
 
-.CD {
+/* .CD {
   height: 500px;
   width: 500px;
   object-fit: cover;
-}
+} */
 
-.SS {
+/* .SS {
   height: 500px;
   width: 500px;
   object-fit: cover;
-}
+} */
 
 .chicken-drumsticks-and-smoked-sausage {
   display: flex;
@@ -194,8 +202,16 @@ h3 {
   width: 500px;
 }
 
-#cD {
-  margin-right: 20px;
+.CD {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.SmkS {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
 }
 
 .Smoked-Sausage {
@@ -315,7 +331,7 @@ input{
 
 .email {
   height: 50px;
-  width: 400px;
+  width: 450px;
   color: #00a1ff;
   border: 4px solid #ff7f00;
   font-size: 25px;
@@ -324,8 +340,8 @@ input{
 
 .message {
   /* padding: 50px; */
-  height: 375px;
-  width: 1000px;
+  height: 200px;
+  width: 450px;
   margin-top: 40px;
   color: #00a1ff;
   border: 4px solid #ff7f00;
@@ -335,7 +351,7 @@ input{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .food {
@@ -434,17 +450,23 @@ input{
   font-size: 30px;
 }
 
+.card-Container3 {
+  height: 200px;
+  width: 1000px;
+}
+
 .addReservation {
   border: 4px solid white;
   font-size: 30px;
   margin-bottom: 60px;
 }
 
-.card-Container3 {
-  height: 200px;
-  width: 1000px;
+.card-Container4 {
+  height: 275px;
+  width: 750px;
   margin-top: 40px;
   color: #00a1ff;
+  border: 4px solid #ff7f00;
   background: white;
   display: block;
   margin-left: auto;
@@ -453,7 +475,7 @@ input{
 
 .name3 {
   height: 50px;
-  width: 400px;
+  width: 450px;
   color: #00a1ff;
   border: 4px solid #ff7f00;
   font-size: 25px;
@@ -462,11 +484,86 @@ input{
 
 .submit-Button3 {
   height: 80px;
-  width: 320px;
+  width: 350px;
   border: 4px solid #ff7f00;
   color: white;
   background: #ff7f00;
   font-size: 20px;
   text-align: center;
   margin-top: 20px;
+}
+
+.addComment {
+  color: #00a1ff;
+  border: solid white;
+}
+
+.reviews {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Five-Stars {
+  height: 100px;
+  width: 340px;
+  background: white;
+  margin-bottom: 0px;
+}
+
+.paragraph-reviews {
+  height: 250px;
+  width: 340px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.First-Review {
+  height: 375px;
+  text-align: center;
+  margin-left: 10px;
+  width: 340px;
+  background: white;
+}
+
+.Second-Review {
+  height: 375px;
+  text-align: center;
+  margin-left: 40px;
+  width: 340px;
+  background: white;
+}
+
+.Third-Review {
+  height: 375px;
+  text-align: center;
+  margin-left: 40px;
+  width: 340px;
+  background: white;
+}
+
+.Fourth-Review {
+  height: 375px;
+  text-align: center;
+  margin-left: 40px;
+  width: 340px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  background: white;
+}
+
+h2 {
+  font-size: 50px;
+  color: #00a1ff;
+  /* border: 4px solid #ff7f00; */
+  text-align: center;
+  margin-bottom: 20px;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviewers {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
