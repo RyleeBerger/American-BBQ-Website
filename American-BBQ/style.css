@@ -129,6 +129,7 @@ p {
   font-size: 25px;
   margin-top: 60px;
   background-color: white;
+  margin-bottom: 0px;
   /* length: 500px; */
 }
 
@@ -138,6 +139,8 @@ h3 {
   border: 4px solid #ff7f00;
   font-size: 25px;
   background-color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 body {
@@ -146,19 +149,24 @@ body {
   background-attachment: fixed;
 }
 
-.ROR {
+.menu-paragraphs {
+  margin-top: 5px;
+  /* background: white; */
+}
+
+.roR {
   height: 500px;
   width: 500px;
   object-fit: cover;
 }
 
-.TBS {
+.tbS {
   height: 500px;
   width: 500px;
   object-fit: cover;
 }
 
-.ribs-and-steak {
+.Ribs-and-Steak {
   display: flex;
   margin-left: 200px;
 }
@@ -166,58 +174,46 @@ body {
 .Rack-of-Ribs {
   height: 500px;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 25px;
   width: 500px;
 }
 
 .T-Bone-Steak {
   height: 500px;
   text-align: center;
-  margin-left: 25px;
+  margin-left: 50px;
   width: 500px;
 }
 
-/* .CD {
+.cD {
   height: 500px;
   width: 500px;
   object-fit: cover;
-} */
+}
 
-/* .SS {
+.sS {
   height: 500px;
   width: 500px;
   object-fit: cover;
-} */
+}
 
-.chicken-drumsticks-and-smoked-sausage {
+.Chicken-Drumsticks-and-Smoked-Sausage {
   display: flex;
   margin-left: 200px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .Chicken-Drumsticks {
   height: 500px;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 25px;
   width: 500px;
-}
-
-.CD {
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
-}
-
-.SmkS {
-  height: 500px;
-  width: 500px;
-  object-fit: cover;
 }
 
 .Smoked-Sausage {
   height: 500px;
   text-align: center;
-  margin-left: 25px;
+  margin-left: 50px;
   width: 500px;
 }
 
@@ -236,7 +232,7 @@ body {
 .Hot-Dog-and-Mac-and-Cheese-Bowl {
   display: flex;
   margin-left: 200px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .Hot-Dog {
@@ -268,7 +264,7 @@ body {
 .Corn-on-the-Cob-and-Watermelon {
   display: flex;
   margin-left: 200px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .Watermelon {
@@ -298,7 +294,7 @@ body {
   margin-right: auto;
   text-align: center;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 input{
@@ -397,12 +393,12 @@ input{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .addOrder {
   border: 4px solid white;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 60px;
 }
 
@@ -451,26 +447,30 @@ input{
 }
 
 .card-Container3 {
-  height: 200px;
+  height: 125px;
   width: 1000px;
 }
 
 .addReservation {
   border: 4px solid white;
-  font-size: 30px;
+  font-size: 25px;
   margin-bottom: 60px;
 }
 
 .card-Container4 {
-  height: 275px;
-  width: 750px;
+  /* padding: 50px; */
+  height: 375px;
+  width: 1000px;
   margin-top: 40px;
   color: #00a1ff;
   border: 4px solid #ff7f00;
   background: white;
+  /* width: 50%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  font-size: 25px;
 }
 
 .name3 {
@@ -496,6 +496,7 @@ input{
 .addComment {
   color: #00a1ff;
   border: solid white;
+  font-size: 25px;
 }
 
 .reviews {
@@ -556,14 +557,24 @@ h2 {
   color: #00a1ff;
   /* border: 4px solid #ff7f00; */
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   width: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background: white;
+  border: 4px solid #ff7f00;
 }
 
 .reviewers {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.cardContainer5 {
+  height: 25px;
+}
+
+.card-Container6 {
+  height: 25px;
 }
